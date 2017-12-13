@@ -1,5 +1,12 @@
 {
     "entry": "test.pwn",
     "output": "test.amx",
-    "dependencies": ["Southclaws/samp-stdlib", "maddinat0r/sscanf"]
+    "dependencies": [
+        "Southclaws/samp-stdlib",
+        "Southclaws/samp-ctime",
+        "maddinat0r/sscanf"
+    ],
+    "runtime": {
+        "plugins": ["Southclaws/samp-ctime"]
+    }
 }
