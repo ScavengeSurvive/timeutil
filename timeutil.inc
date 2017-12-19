@@ -45,7 +45,7 @@ stock MsToString(millisecond, format[]) {
 		minute,
 		second,
 		format_char,
-		result_lenght,
+		result_length,
 		bool:padding,
 		len = strlen(format);
 
@@ -76,7 +76,7 @@ stock MsToString(millisecond, format[]) {
 					}
 
 					strcat(result, tmp);
-					result_lenght = strlen(result);
+					result_length = strlen(result);
 				}
 
 				case 'm': {
@@ -88,7 +88,7 @@ stock MsToString(millisecond, format[]) {
 					}
 
 					strcat(result, tmp);
-					result_lenght = strlen(result);
+					result_length = strlen(result);
 				}
 
 				case 's': {
@@ -100,7 +100,7 @@ stock MsToString(millisecond, format[]) {
 					}
 
 					strcat(result, tmp);
-					result_lenght = strlen(result);
+					result_length = strlen(result);
 				}
 
 				case 'd': {
@@ -115,13 +115,13 @@ stock MsToString(millisecond, format[]) {
 					}
 
 					strcat(result, tmp);
-					result_lenght = strlen(result);
+					result_length = strlen(result);
 				}
 			}
 		}
 		else {
-			result[result_lenght] = format[format_char];
-			result_lenght++;
+			result[result_length] = format[format_char];
+			result_length++;
 		}
 
 		format_char++;
