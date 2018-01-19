@@ -2,7 +2,7 @@
     "entry": "test.pwn",
     "output": "test.amx",
     "dependencies": [
-        "Southclaws/samp-stdlib",
+        "sampctl/samp-stdlib",
         "Southclaws/samp-ctime",
         "maddinat0r/sscanf"
     ],
