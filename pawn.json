@@ -7,6 +7,7 @@
         "maddinat0r/sscanf"
     ],
     "runtime": {
+        "run_type": "main",
         "plugins": ["Southclaws/samp-ctime"]
     }
 }
